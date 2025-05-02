@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <header>
+        <div class="logo">Fatema Tuz Zohra</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="greeting">HELLO!</p>
+                <h1>I'm <span>Fatema Tuz Zohra</span></h1>
+                <p class="job-title">Student</p>
+                <p>Passionate CSE Student with expertise in web development and a strong foundation in machine learning and data science.</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn">LINKEDIN</a>
+                    <a href="#" class="social-btn">GITHUB</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/api/placeholder/400/500" alt="Profile Image">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/api/placeholder/250/250" alt="About Image">
+                </div>
+                <div class="about-text">
+                    <p>I'm a CSE student at North Western University with a strong passion for Machine Learning...</p>
+                    <!-- more about text here -->
+
+                    <div class="about-details">
+                        <div class="detail-item"><strong>Profile:</strong> Front-End Development & Social Media Management</div>
+                        <div class="detail-item"><strong>Domain:</strong> Retail, Ecommerce, BFSI & Digital Marketing</div>
+                        <div class="detail-item"><strong>Education:</strong> Bachelor's Degree in Computer Science</div>
+                        <div class="detail-item"><strong>Language:</strong> English, Bangla</div>
+                    </div>
+
+                    <div class="skills">
+                        <!-- Skills bars -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-date">2023- Present</div>
+                    <div class="education-degree">B.Sc in Computer Science and Engineering</div>
+                    <div class="education-school">North Western University, Khulna</div>
+                </div>
+                <!-- More education cards -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
